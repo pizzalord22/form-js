@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a text file</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<section>
+    <form action="text.php" method="post">
+        <input id="file_name" type="text" name="file_name" placeholder="File name" required>
+        <br>
+        <input id="extension" type="text" name="extension" placeholder="html, php, css, txt" required>
+        <br>
+        <textarea id="content" onchange="string_correct(this.value)" name="content" placeholder="Type your content here" required></textarea>
+        <br>
+        <input type="submit" value="Create page">
+    </form>
+</section>
+</body>
+</html>

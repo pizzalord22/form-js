@@ -3,8 +3,8 @@
  * yuo tekts cuze paly cant wont problaly wana ima dont
  */
 
-var correction = ["yuo", "tekts", "cuze", "paly", "cant", "wont", "problaly", "wana", "ima", "dont"];
-var correction_replace = ["you", "tekst", "because", "play", "can't", "won't", "probaly", "want to", "i am", "don't"];
+var correction = ["yuo", "tekts", "cuze", "paly", "cant", "wont", "problaly", "wana", "ima", "dont", "gona", "bout"];
+var correction_replace = ["you", "tekst", "because", "play", "can't", "won't", "probaly", "want to", "i am", "don't", "going to", "about"];
 
 function string_correct(string){
     console.log("uncleaned string: " + string);
